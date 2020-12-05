@@ -1,0 +1,114 @@
+\documentclass[draft]{amsart}
+%The main effect of the option draft is to indicate overfull hbox by a vertical bar in the margin.
+
+\title{Test for github}
+%\author{In-Kyun Kim}
+
+\usepackage{amsthm,amsmath}
+%These packages, which are part of amslatex, are needed to make the amslatex enhancements for typesetting equations and theorems available. The packages are loaded automatically if you use one of the ams document classes.
+\usepackage{amscd,amssymb,graphicx}
+%The amssymb package is part of the amslatex distribution and loads additional fonts and symbols. Also amscd is a package for typesetting simple commutative diagrams. The graphicx package allows inclusion of graphics files produced by other applications.
+\usepackage{pdfsync}
+\usepackage[all]{xy}
+\usepackage{tikz-cd}
+\usepackage{color}
+\usepackage{mathtools}
+\usepackage{microtype}
+
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+
+\newcommand{\Supp}{\operatorname{Supp}}
+\newcommand{\Sing}{\operatorname{Sing}}
+\newcommand{\lct}{\operatorname{lct}}
+\newcommand{\glct}{\operatorname{glct}}
+\newcommand{\Proj}{\operatorname{Proj}}
+\newcommand{\Spec}{\operatorname{Spec}}
+\newcommand{\mult}{\operatorname{mult}}
+\newcommand{\BS}{\operatorname{BS}}
+\newcommand{\wt}{\operatorname{wt}}
+\newcommand{\vol}{\operatorname{vol}}
+\newcommand{\dd}{\mathop{}\!\mathrm{d}}
+\newcommand{\ord}{\operatorname{ord}}
+
+\newcommand{\AAAA}{{\mathbb A}}
+\newcommand{\CC}{{\mathbb C}}
+\newcommand{\KK}{{\mathbb K}}
+\newcommand{\NN}{{\mathbb N}}
+\newcommand{\PP}{{\mathbb P}}
+\newcommand{\QQ}{{\mathbb Q}}
+\newcommand{\RR}{{\mathbb R}}
+\newcommand{\ZZ}{{\mathbb Z}}
+
+\newcommand{\msa}{\mathsf a}
+\newcommand{\msb}{\mathsf b}
+\newcommand{\msc}{\mathsf c}
+\newcommand{\msd}{\mathsf d}
+\newcommand{\mse}{\mathsf e}
+\newcommand{\msf}{\mathsf f}
+\newcommand{\msg}{\mathsf g}
+\newcommand{\msh}{\mathsf h}
+\newcommand{\msi}{\mathsf i}
+\newcommand{\msj}{\mathsf j}
+\newcommand{\msk}{\mathsf k}
+\newcommand{\msl}{\mathsf l}
+\newcommand{\msm}{\mathsf m}
+\newcommand{\msn}{\mathsf n}
+\newcommand{\mso}{\mathsf o}
+\newcommand{\msp}{\mathsf p}
+\newcommand{\msq}{\mathsf q}
+\newcommand{\msr}{\mathsf r}
+\newcommand{\mss}{\mathsf s}
+\newcommand{\mst}{\mathsf t}
+\newcommand{\msu}{\mathsf u}
+\newcommand{\msv}{\mathsf v}
+\newcommand{\msw}{\mathsf w}
+\newcommand{\msx}{\mathsf x}
+\newcommand{\msy}{\mathsf y}
+\newcommand{\msz}{\mathsf z}
+
+\newcommand{\mcA}{\mathcal A}
+\newcommand{\mcB}{\mathcal B}
+\newcommand{\mcC}{\mathcal C}
+\newcommand{\mcD}{\mathcal D}
+\newcommand{\mcE}{\mathcal E}
+\newcommand{\mcF}{\mathcal F}
+\newcommand{\mcG}{\mathcal G}
+\newcommand{\mcH}{\mathcal H}
+\newcommand{\mcI}{\mathcal I}
+\newcommand{\mcJ}{\mathcal J}
+\newcommand{\mcK}{\mathcal K}
+\newcommand{\mcL}{\mathcal L}
+\newcommand{\mcM}{\mathcal M}
+\newcommand{\mcN}{\mathcal N}
+\newcommand{\mcO}{\mathcal O}
+\newcommand{\mcP}{\mathcal P}
+\newcommand{\mcQ}{\mathcal Q}
+\newcommand{\mcR}{\mathcal R}
+\newcommand{\mcS}{\mathcal S}
+\newcommand{\mcT}{\mathcal T}
+\newcommand{\mcU}{\mathcal U}
+\newcommand{\mcV}{\mathcal V}
+\newcommand{\mcW}{\mathcal W}
+\newcommand{\mcX}{\mathcal X}
+\newcommand{\mcY}{\mathcal Y}
+\newcommand{\mcZ}{\mathcal Z}
+
+\newcommand{\red}{\textcolor{red}}
+\newcommand{\blue}{\textcolor{blue}}
+\newcommand{\DS}{\displaystyle}
+
+\begin{document}
+\maketitle
+I will ues the github.
+
+test1
+first commit
+\end{document}
